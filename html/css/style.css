@@ -1,1 +1,32 @@
 #project-descr {}
+.headertext {
+	background-color: #2886c4;
+	position: relative;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+	padding: 19px 0;
+	margin-bottom: 20px;
+}
+.headertext:before,
+.headertext:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.headertext:before {
+	border-width: 16px 16px 0 0;
+	border-color: rgba(0,0,0,0.2) transparent transparent transparent;
+}
+.headertext:after {
+	border-width: 0 0 16px 16px;
+	border-color: transparent transparent #ffffff transparent;
+}

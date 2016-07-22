@@ -1,3 +1,11 @@
+body {
+	margin-bottom: 500px;
+}
+
+
+
+
+
 #project-descr {}
 .project-header1 {
 	background-color: #2886c4;
@@ -328,6 +336,126 @@
 	top: 57px;
 }
 .project-plan {}
+.project-plan__table {
+	width: 100%;
+}
+.project-plan__tbody {}
+.project-plan__tr {
+	border-bottom: 1px dotted #d0d0d0;
+}
+.project-plan__tr:first-child,
+.project-plan__tr:last-child {
+	border-bottom: none;
+}
+.project-plan__th {
+	font-size: 17px;
+	line-height: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+.project-plan__th.th_1 {
+	color: #2886c4;
+}
+.project-plan__th.th_2 {
+	color: #2072a8;
+}
+.project-plan__th.th_3 {
+	color: #246087;
+}
+.project-plan__td {
+	padding-top: 20px;
+	padding-bottom: 14px;
+	vertical-align: top;
+}
+.project-plan__td.td_1 {
+	width: 75px;
+	text-align: left;
+}
+.project-plan__td.td_2 {
+	width: 415px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+.project-plan__td.td_3 {
+	width: 65px;
+	text-align: center;
+}
+.project-plan__td.td_4 {
+	width: 65px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+.project-plan__td.td_5 {
+	width: 65px;
+	text-align: center;
+}
+.project-plan__td_1-wrap {
+	height: 40px;
+	overflow: hidden;
+}
+.project-plan__td_1 {
+	display: inline-block;
+	width: 42px;
+	height: 36px;
+	border: 2px solid #d0d0d0;
+	border-right: none;
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 17px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #2c2f36;
+	position: relative;
+}
+.project-plan__td_1:after,
+.project-plan__td_1:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.project-plan__td_1:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #fff;
+	border-width: 18px 0 18px 9px;
+	margin-top: -18px;
+}
+.project-plan__td_1:before {
+	border-color: rgba(208, 208, 208, 0);
+	border-left-color: #d0d0d0;
+	border-width: 21px 0 21px 11px;
+	margin-top: -21px;
+}
+.project-plan__td_2 {
+	color: #5d5d5d;
+	font-size: 14px;
+	line-height: 20px;
+}
+.project-plan__td_345 {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+.project-plan__td_3 {
+	background-color: #4fa5dd;
+}
+.project-plan__td_4 {
+	background-color: #2886c4;
+}
+.project-plan__td_5 {
+	background-color: #286f9d;
+}
 
 
 

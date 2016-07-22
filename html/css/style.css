@@ -1,5 +1,5 @@
 #project-descr {}
-.headertext {
+.project-header1 {
 	background-color: #2886c4;
 	color: #fff;
 	text-transform: uppercase;
@@ -32,7 +32,9 @@
 	border-width: 0 0 16px 16px;
 	border-color: transparent transparent #ffffff transparent;
 }
-.project__details {}
+.project__details {
+	padding-bottom: 6px;
+}
 .project__details-left {
 	float: left;
 	width: 405px;
@@ -153,6 +155,181 @@
 	position: relative;
 	top: 2px;
 }
+.project-header2 {
+	border-bottom: 1px solid #d0d0d0;
+	margin: 38px 0 20px;
+	font-size: 1px;
+	padding: 0 0 10px 1px;
+}
+.project-header2__icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	color: #2886c4;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.project-header2__text {
+	display: inline-block;
+	color: #2c2f36;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.project-targets {
+	margin-bottom: -18px;
+}
+.project-targets__title {
+	color: #2c2f36;
+	line-height: 20px;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+.project-targets__box {
+	font-size: 1px;
+	padding-top: 8px;
+	margin-top: 2px;
+}
+.project-targets__boxleft {
+	float: left;
+	width: 350px;
+}
+.project-targets__boxcenter {
+	float: left;
+	width: 30px;
+	margin: 0 8px 0 7px;
+	text-align: center;
+}
+.project-targets__boxright {
+	float: left;
+	width: 350px;
+}
+.project-targets__box-targetsline {
+	display: inline-block;
+	width: 2px;
+	height: 350px;
+	background-color: #2886c4;
+	position: relative;
+}
+.project-targets__topcircle {
+	display: inline-block;
+	color: #2886c4;
+	width: 9px;
+	height: 9px;
+	font-size: 9px;
+	position: absolute;
+	top: -8px;
+	left: -3px;
+}
+.project-targets__targetcircle {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/circle-target.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -14px;
+}
+.project-targets__targetcircle.targetcircle_1 {
+	top: 52px;
+}
+.project-targets__targetcircle.targetcircle_2 {
+	top: 182px;
+}
+.project-targets__targetcircle.targetcircle_3 {
+	top: 322px;
+}
+.project-targets__target {
+	width: 330px;
+	border: 1px solid #d7d7d7;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.04);
+	-moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.04);
+	box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.04);
+	position: relative;
+	margin-bottom: 20px;
+}
+.project-targets__target-inner {
+	padding: 18px 23px;
+	border: 1px solid #fcfcfc;
+	background: #f6f6f6;
+	color: #5d5d5d;
+	font-size: 14px;
+	line-height: 20px;
+}
+.project-targets__target:after,
+.project-targets__target:before,
+.project-targets__target-arrow {
+	left: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.project-targets__target:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #fff;
+	border-width: 20px;
+	margin-top: -20px;
+}
+.project-targets__target:before {
+	border-color: rgba(215, 215, 215, 0);
+	border-left-color: #d7d7d7;
+	border-width: 21px;
+	margin-top: -21px;
+}
+.project-targets__target-arrow {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #f6f6f6;
+	border-width: 19px;
+	margin-top: -19px;
+	z-index: 50;
+	left: auto;
+	right: -37px;
+}
+.project-targets__target.target_1:after,
+.project-targets__target.target_1:before,
+.project-targets__target.target_1 .project-targets__target-arrow {
+	top: 66px;
+}
+.project-targets__target.target_2:after,
+.project-targets__target.target_2:before,
+.project-targets__target.target_2 .project-targets__target-arrow {
+	left: auto;
+	right: 100%;
+	top: 49px;
+}
+.project-targets__target.target_2 {
+	top: 146px;
+	margin-left: 18px;
+}
+.project-targets__target.target_2:after {
+	border-left-color: transparent;
+	border-right-color: #fff;
+}
+.project-targets__target.target_2:before {
+	border-left-color: transparent;
+	border-right-color: #d7d7d7;
+}
+.project-targets__target.target_2 .project-targets__target-arrow {
+	border-left-color: transparent;
+	border-right-color: #f6f6f6;
+	right: auto;
+	left: -37px;
+}
+
+.project-targets__target.target_3:after,
+.project-targets__target.target_3:before,
+.project-targets__target.target_3 .project-targets__target-arrow {
+	top: 57px;
+}
+.project-plan {}
+
+
 
 
 

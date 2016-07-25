@@ -69,4 +69,7 @@
 .icon-target:before {
     content: "\e90e";
 }
+.icon-checklist:before {
+    content: "\e90f";
+}
 

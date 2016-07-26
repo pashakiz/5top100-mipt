@@ -22,6 +22,7 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: none;
 }
 
 .icon-arrow-diagonally:before {

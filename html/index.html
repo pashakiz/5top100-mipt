@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/icomoon.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
 	<div style="width: 745px; margin: 0 auto;"> <!-- wrapper for example (begin) -->
@@ -480,17 +481,179 @@
 				<div class="project-header2__text">Партнеры программы</div>
 			</div>
 			<div class="project-partners">
-				.project-partners
+				<div class="project-partners__partner">
+					<img src="img/partner_mian.png" alt="" class="project-partners__img">
+				</div>
+				<div class="project-partners__partner">
+					<img src="img/partner_yandex.png" alt="" class="project-partners__img">
+				</div>
+				<div class="project-partners__partner">
+					<img src="img/partner_mig.png" alt="" class="project-partners__img">
+				</div>
+				<div class="project-partners__partner">
+					<img src="img/partner_epfl.png" alt="" class="project-partners__img">
+				</div>
+				<div class="project-partners__partner">
+					<img src="img/partner_ri.png" alt="" class="project-partners__img">
+				</div>
 			</div> <!-- .project-partners -->
 			<div class="project-header2">
 				<div class="project-header2__icon icon-location"></div>
 				<div class="project-header2__text">Расположение</div>
 			</div>
 			<div class="project-locations">
-				.project-locations
+				<table class="project-locations__box">
+					<tr class="project-locations__row">
+						<td class="project-locations__label">Лабораторный корпус</td>
+						<td class="project-locations__num">
+							<div class="project-locations__num-box">
+								<div class="project-locations__num-text">Аудитория <b>120</b></div>
+							</div>
+						</td>
+					</tr>
+					<tr class="project-locations__row">
+						<td class="project-locations__label">Главный корпус</td>
+						<td class="project-locations__num">
+							<div class="project-locations__num-box">
+								<div class="project-locations__num-text">Аудитория <b>319</b></div>
+							</div>
+						</td>
+					</tr>
+					<tr class="project-locations__row">
+						<td class="project-locations__label">Концертный зал</td>
+						<td class="project-locations__num">
+							<div class="project-locations__num-box">
+								<div class="project-locations__num-text">Аудитория <b>18</b></div>
+							</div>
+						</td>
+					</tr>
+					<tr class="project-locations__row">
+						<td class="project-locations__label">Новый корпус</td>
+						<td class="project-locations__num">
+							<div class="project-locations__num-box">
+								<div class="project-locations__num-text">Аудитория <b>183</b></div>
+							</div>
+						</td>
+					</tr>
+					<tr class="project-locations__row">
+						<td class="project-locations__label">Корпус прикладной математики</td>
+						<td class="project-locations__num">
+							<div class="project-locations__num-box">
+								<div class="project-locations__num-text">Аудитория <b>29</b></div>
+							</div>
+						</td>
+					</tr>
+					<tr class="project-locations__row">
+						<td class="project-locations__label">Спортивный корпус</td>
+						<td class="project-locations__num">
+							<div class="project-locations__num-box">
+								<div class="project-locations__num-text">Аудитория <b>326</b></div>
+							</div>
+						</td>
+					</tr>
+					<tr class="project-locations__row">
+						<td class="project-locations__label">Спортивный корпус (бассейн)</td>
+						<td class="project-locations__num">
+							<div class="project-locations__num-box">
+								<div class="project-locations__num-text">Аудитория <b>593</b></div>
+							</div>
+						</td>
+					</tr>
+					<tr class="project-locations__row">
+						<td class="project-locations__label">Аудиторный корпус</td>
+						<td class="project-locations__num">
+							<div class="project-locations__num-box">
+								<div class="project-locations__num-text">Аудитория <b>03</b></div>
+							</div>
+						</td>
+					</tr>
+				</table>
 			</div> <!-- .project-locations -->
-			<div class="project-ymap">
-				YMAP
+			<div id="project-ymap">
+				<script type="text/javascript">
+					ymaps.ready(init);
+					function init () {
+						var myMap = new ymaps.Map('project-ymap', {
+								center: [55.929738866883795,37.52035144764719],
+								zoom: 16
+							});
+						var myPlacemark_NK = new ymaps.Placemark([55.929738866883795,37.52035144764719], {
+								iconContent: 'НК',
+								hintContent: 'Новый корпус',
+							}, {
+								preset: 'islands#redStretchyIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_NK);
+
+						var myPlacemark_KPM = new ymaps.Placemark([55.92848453502313,37.521740831916894], {
+								iconContent: 'КПМ',
+								hintContent: 'Корпус прикладной математики',
+							}, {
+								preset: 'islands#redStretchyIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_KPM);
+
+						var myPlacemark_GK = new ymaps.Placemark([55.92948438988733,37.5182646890336], {
+								iconContent: 'ГК',
+								hintContent: 'Главный корпус',
+							}, {
+								preset: 'islands#redStretchyIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_GK);
+
+						var myPlacemark_LK = new ymaps.Placemark([55.93038785091598,37.51820031601723], {
+								iconContent: 'ЛК',
+								hintContent: 'Лабораторный корпус',
+							}, {
+								preset: 'islands#redStretchyIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_LK);
+
+						var myPlacemark_AK = new ymaps.Placemark([55.93089980277553,37.520067133491615], {
+								iconContent: 'АК',
+								hintContent: 'Аудиторный корпус',
+							}, {
+								preset: 'islands#redStretchyIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_AK);
+
+						var myPlacemark_RT = new ymaps.Placemark([55.930032492101944,37.516161837165924], {
+								iconContent: 'РТ',
+								hintContent: 'РТ',
+							}, {
+								preset: 'islands#redStretchyIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_RT);
+
+						var myPlacemark_BK = new ymaps.Placemark([55.92956871381173,37.515786327903825], {
+								iconContent: 'БК',
+								hintContent: 'БК',
+							}, {
+								preset: 'islands#redStretchyIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_BK);
+
+						var myPlacemark_NUM1 = new ymaps.Placemark([55.93115276471636,37.521451153343286], {
+								iconContent: '1',
+								hintContent: '1',
+							}, {
+								preset: 'islands#darkOrangeCircleIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_NUM1);
+
+						var myPlacemark_NUM7 = new ymaps.Placemark([55.92900855857451,37.52324286896523], {
+								iconContent: '7',
+								hintContent: '7',
+							}, {
+								preset: 'islands#blueCircleIcon'
+							});
+						myMap.geoObjects.add(myPlacemark_NUM7);
+
+						myMap.controls.add('mapTools');
+						
+						
+					}
+				</script>
 			</div> <!-- .project-locations -->
 
 

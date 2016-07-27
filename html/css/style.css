@@ -6,8 +6,8 @@
 	font-size: 17px;
 	font-weight: bold;
 	text-align: center;
-	line-height: 1;
-	padding: 19px 0;
+	line-height: 22px;
+	padding: 18px 0;
 	margin-bottom: 20px;
 }
 .folded {
@@ -159,6 +159,7 @@
 	top: 2px;
 }
 .project__descr {
+	color: #5d5d5d;
 	margin: 20px 0;
 }
 .project-header2 {
@@ -642,6 +643,10 @@
 	display: table-cell;
 	vertical-align: middle;
 }
+.project-lists__item-text {
+	margin: 25px 0;
+	padding-left: 10px;
+}
 .project-lists__item-list {
 	padding: 0 0 0 30px;
 	margin: 25px 0 32px;
@@ -675,8 +680,13 @@
 	width: 12px;
 	height: 12px;
 	left: -20px;
-	top: 50%;
-	margin-top: -5px;
+	top: 5px;
+}
+.project-lists__item-list_intext {
+	margin: 15px 0;
+}
+.project-lists__item-list_intext .project-lists__item-list-li {
+	margin-bottom: 10px;
 }
 .project-reports {}
 .project-reports__year {

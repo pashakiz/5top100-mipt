@@ -88,6 +88,7 @@
 	font-weight: bold;
 	border-left: 3px solid #3e78b0;
 	padding: 0 19px;
+	width: 41px;
 }
 .project__details-right {
 	width: 320px;
@@ -795,6 +796,9 @@
 .project-reports__list-content2 {
 	color: #5d5d5d;
 	font-style: italic;
+}
+.project-reports__list-content3 {
+	margin-top: 5px;
 }
 .project-certs {
 	padding: 20px 0 0 0;

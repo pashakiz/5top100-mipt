@@ -1,11 +1,3 @@
-body {
-	margin-bottom: 500px;
-}
-
-
-
-
-
 #project-descr {}
 .project-header1 {
 	background-color: #2886c4;
@@ -839,7 +831,7 @@ body {
 	line-height: 1;
 }
 .project-site {
-	padding: 20px 0 12px;
+	padding: 40px 0 12px;
 	text-align: center;
 }
 .project-site__lnk {

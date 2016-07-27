@@ -12,6 +12,7 @@ fonts/icomoon/*
 `index.html:` - сам макет, пример;   
     
 <a href="http://artsovet.info/site/mipt5top100/lab.html" target="_blank">`lab.html`</a>
+[`lab.html`](http://artsovet.info/site/mipt5top100/lab.html){:target="_blank"}
 Лаборатория гиперзвуковых и плазменных технологий   
 Мероприятие 2.1.1. Создание новых и поддержка существующих лабораторий, работающих совместно с российскими и международными высокотехнологичными организациями.
 

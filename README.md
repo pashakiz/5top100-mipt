@@ -9,7 +9,7 @@ img/*
 fonts/icomoon/*
 ```
 
-<a href="http://artsovet.info/site/mipt5top100/index.html" title="Просмотр" target="_blank">`index.html`</a> - сам макет, пример;   
+<a href="http://artsovet.info/site/mipt5top100/index.html" title="Просмотр" target="_blank">`index.html`</a> - макет, пример страницы проекта;   
     
 <a href="http://artsovet.info/site/mipt5top100/lab.html" title="Просмотр" target="_blank">`lab.html`</a>  
 **Лаборатория гиперзвуковых и плазменных технологий**  
@@ -22,3 +22,7 @@ fonts/icomoon/*
 <a href="http://artsovet.info/site/mipt5top100/part-event.html" title="Просмотр" target="_blank">`part-event.html`</a>  
 **Участие в мероприятии**  
 Мероприятие 3.1.2. Организация и проведение в МФТИ международных школ, конференций,  семинаров, мастер-классов  
+
+# Дизайн страницы "О программе""
+<a href="http://artsovet.info/site/mipt5top100/about.html" title="Просмотр" target="_blank">`about.html`</a>  
+Страница: http://5top100.testdev.syncrocity.ru/pages/about  

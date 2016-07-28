@@ -51,9 +51,8 @@
 	text-transform: uppercase;
 	font-size: 17px;
 	font-weight: bold;
-	text-align: center;
 	line-height: 24px;
-	padding: 13px 0;
+	padding: 13px 20px;
 }
 .project__details-b1-header .icon-arrow-diagonally {
 	display: inline-block;
@@ -959,7 +958,9 @@
 	height: 450px;
 	box-sizing: border-box;
 }
-
-
+/*---------------------------------------------------------------------------------*/
+/* about */
+/*---------------------------------------------------------------------------------*/
+#about {}
 
 

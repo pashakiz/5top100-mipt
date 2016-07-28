@@ -73,4 +73,33 @@
 .icon-checklist:before {
     content: "\e90f";
 }
-
+.icon-notepad:before {
+  content: "\e910";
+}
+.icon-roadmap:before {
+  content: "\e911";
+}
+.icon-docs:before {
+  content: "\e912";
+}
+.icon-arrow-right:before {
+  content: "\e913";
+}
+.icon-arrow-down2:before {
+  content: "\e914";
+}
+.icon-arrow-up2:before {
+  content: "\e915";
+}
+.icon-lamp:before {
+  content: "\e916";
+}
+.icon-folder:before {
+  content: "\e917";
+}
+.icon-handshake2:before {
+  content: "\e918";
+}
+.icon-like:before {
+  content: "\e919";
+}

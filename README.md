@@ -23,6 +23,6 @@ fonts/icomoon/*
 **Участие в мероприятии**  
 Мероприятие 3.1.2. Организация и проведение в МФТИ международных школ, конференций,  семинаров, мастер-классов  
 
-# Дизайн страницы "О программе""
+# Дизайн страницы "О программе"
 <a href="http://artsovet.info/site/mipt5top100/about.html" title="Просмотр" target="_blank">`about.html`</a>  
 Страница: http://5top100.testdev.syncrocity.ru/pages/about  

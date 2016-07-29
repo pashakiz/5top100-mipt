@@ -963,4 +963,31 @@
 /*---------------------------------------------------------------------------------*/
 #about {}
 /* text-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); */
+.about-text2col {}
+.about-text2col__block {
+	float: left;
+	width: 50%;
+	padding-right: 30px;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 20px;
+	color: #5d5d5d;
+}
+.about-text2col__block-img {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+#about a {
+	color: #2886c4;
+	text-decoration: underline;
+}
+#about a:hover {
+	text-decoration: none;
+}
+.about-fullwidth {
+	width: 100%;
+	height: auto;
+}
+
+
 

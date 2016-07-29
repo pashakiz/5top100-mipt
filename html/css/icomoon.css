@@ -103,3 +103,18 @@
 .icon-like:before {
   content: "\e919";
 }
+.icon-education-hat:before {
+  content: "\e91a";
+}
+.icon-planet:before {
+  content: "\e91b";
+}
+.icon-science:before {
+  content: "\e91c";
+}
+.icon-house:before {
+  content: "\e91d";
+}
+.icon-brain:before {
+  content: "\e91e";
+}

@@ -85,10 +85,10 @@
 .icon-arrow-right:before {
   content: "\e913";
 }
-.icon-arrow-down2:before {
+.icon-arrow-down:before {
   content: "\e914";
 }
-.icon-arrow-up2:before {
+.icon-arrow-up:before {
   content: "\e915";
 }
 .icon-lamp:before {

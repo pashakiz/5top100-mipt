@@ -966,7 +966,6 @@
 /* about */
 /*---------------------------------------------------------------------------------*/
 #about {}
-/* text-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); */
 .about-text2col {}
 .about-text2col__block {
 	float: left;
@@ -993,6 +992,166 @@
 	height: auto;
 	margin-bottom: 35px;
 }
+.about__subtitle {
+	background-color: #ececec;
+	padding: 12px 21px 9px;
+	color: #2c2f36;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.about__roadmap-box {
+	width: 660px;
+	margin: 40px auto 20px;
+	font-size: 1px;
+}
+.about__roadmap-item {
+	display: inline-block;
+	width: 320px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.about__roadmap-item:nth-child(2n+1) {
+	margin-right: 20px;
+}
+.about__roadmap-item-title {
+	padding: 15px 30px;
+	background-color: #2886c4;
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+}
+.about__roadmap-item-text {
+	padding: 30px;
+	border: 3px solid #2886c4;
+	border-top: none;
+	font-size: 14px;
+	line-height: 20px;
+	color: #5d5d5d;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.04);
+	-moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.04);
+	box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.04);
+}
+.folded_top-right:before,
+.folded_top-right:after {
+	bottom: auto;
+	top: 0;
+}
+.folded_top-right:before {
+	border-width: 16px 0 0 16px;
+	border-color: transparent transparent transparent rgba(0,0,0,0.2);
+}
+.folded_top-right:after {
+	border-width: 0 16px 16px 0;
+	border-color: transparent #ffffff transparent transparent;
+}
+.about__directions {
+	padding-top: 40px;
+	font-size: 1px;
+}
+.about__direction-out {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.about__direction-out:nth-child(2n+1) {
+	margin-right: 20px;
+}
+.about__direction {
+	display: table;
+	width: 490px;
+	height: 100%;
+}
+.about__direction-img {
+	display: table-cell;
+	width: 150px;
+	height: 150px;
+	vertical-align: middle;
+	text-align: center;
+}
+.about__direction-icon {
+	display: inline;
+	color: #fff;
+	font-size: 90px;
+	text-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+	vertical-align: baseline;
+}
+.about__direction-img.about__direction-img_education {
+	background-color: #e4bf3e;
+}
+.about__direction-img.about__direction-img_planet {
+	background-color: #eb6b4d;
+}
+.about__direction-img.about__direction-img_science {
+	background-color: #d2566a;
+}
+.about__direction-img.about__direction-img_house {
+	background-color: #a270b9;
+}
+.about__direction-img.about__direction-img_brain {
+	background-color: #5e83d5;
+}
+.about__direction-descr {
+	display: table-cell;
+	vertical-align: top;
+	height: 100%;
+	padding-left: 20px;
+}
+.about__direction-title {
+	color: #2c2f36;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.about__direction-text {
+	color: #5d5d5d;
+	font-size: 14px;
+	line-height: 20px;
+}
+.about__eventsprojects {}
 
+.project-header2_dropdown {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.header-dropdown {
+	position: relative;
+	border-bottom: 1px solid #d0d0d0;
+}
+.header-dropdown.expand {
+	padding-bottom: 45px;
+}
+.header-dropdown__inner {
+	display: none;
+}
+.header-dropdown.expand .header-dropdown__inner {
+	display: block;
+}
+.header-dropdown__arrow {
+	padding: 1px 10px 4px;
+	font-size: 17px;
+	color: #2c2f36;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	cursor: pointer;
+	position: absolute;
+	right: 100px;
+	bottom: -21px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #d0d0d0;
+}
+.header-dropdown.expand .header-dropdown__arrow {
+	bottom: -1px;
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #fff;
+}
+.header-dropdown__arrow.icon-arrow-down {}
+.header-dropdown__arrow.icon-arrow-up {}
+.project-header2__icon.icon-arrow-right {
+	font-size: 16px;
+	height: 16px;
+	padding-top: 3px;
+}
 
 

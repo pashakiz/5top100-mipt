@@ -200,6 +200,7 @@
 .project-targets__box {
 	display: table;
 	width: 100%;
+	height: 100%;
 	padding-top: 8px;
 	margin-top: 2px;
 	overflow: hidden;
@@ -208,6 +209,7 @@
 	width: 350px;
 	display: table-cell;
 	vertical-align: middle;
+	height: 100%;
 }
 .project-targets__boxcenter {
 	display: table-cell;
@@ -215,11 +217,13 @@
 	padding: 0 8px 0 7px;
 	text-align: center;
 	vertical-align: middle;
+	height: 100%;
 }
 .project-targets__boxright {
 	width: 350px;
 	display: table-cell;
 	vertical-align: middle;
+	height: 100%;
 }
 .project-targets__box-targetsline {
 	display: inline-block;
@@ -987,6 +991,7 @@
 .about-fullwidth {
 	width: 100%;
 	height: auto;
+	margin-bottom: 35px;
 }
 
 

@@ -1213,6 +1213,7 @@
 .header-dropdown {
 	position: relative;
 	border-bottom: 1px solid #d0d0d0;
+	margin-bottom: 40px;
 }
 .header-dropdown.expand {
 	padding-bottom: 45px;

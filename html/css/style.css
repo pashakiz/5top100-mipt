@@ -987,11 +987,11 @@
 	float: left;
 	margin: 0 20px 20px 0;
 }
-#about a {
+.about a {
 	color: #2886c4;
 	text-decoration: underline;
 }
-#about a:hover {
+.about a:hover {
 	text-decoration: none;
 }
 .about-fullwidth {
@@ -1119,6 +1119,9 @@
 .about__eventsprojects {
 	padding: 40px 85px 0;
 }
+.about__direction-btns {
+	margin-bottom: 30px;
+}
 .about__direction-btn {
 	float: left;
 	margin-right: 20px;
@@ -1126,6 +1129,12 @@
 }
 .about__direction-btn:last-child {
 	margin-right: 0;
+}
+.about__direction-btn:hover,
+.about__direction-btn.active {
+	-webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 6px 12px 0px rgba(0, 0, 0, 0.2);
 }
 .about__direction-icon-text {
 	color: #fff;
@@ -1137,6 +1146,72 @@
 }
 .about__direction-btn .about__direction-icon {
 	font-size: 59px;
+}
+.about__direction-eventsprojects {
+	background-color: #f3f3f3;
+	border: 1px solid #d7d7d7;
+	padding: 10px 18px;
+	position: relative;
+}
+.about__direction-eventsprojects:after,
+.about__direction-eventsprojects:before {
+	bottom: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.about__direction-eventsprojects:after {
+	border-color: rgba(243, 243, 243, 0);
+	border-bottom-color: #f3f3f3;
+	border-width: 20px;
+	margin-left: -20px;
+}
+.about__direction-eventsprojects:before {
+	border-color: rgba(215, 215, 215, 0);
+	border-bottom-color: #d7d7d7;
+	border-width: 21px;
+	margin-left: -21px;
+}
+.about__direction-eventsprojects_01:after,
+.about__direction-eventsprojects_01:before {
+	left: 75px;
+}
+.about__direction-eventsprojects_02:after,
+.about__direction-eventsprojects_02:before {
+	left: 245px;
+}
+.about__direction-eventsprojects_03:after,
+.about__direction-eventsprojects_03:before {
+	left: 415px;
+}
+.about__direction-eventsprojects_04:after,
+.about__direction-eventsprojects_04:before {
+	left: 585px;
+}
+.about__direction-eventsprojects_05:after,
+.about__direction-eventsprojects_05:before {
+	left: 755px;
+}
+
+
+.about__eventsprojects-lnk {
+	display: block;
+	text-decoration: underline;
+	color: #2886c4;
+	font-size: 14px;
+	line-height: 20px;
+	border-bottom: 1px dashed #d7d7d7;
+	padding: 10px 0;
+}
+.about__eventsprojects-lnk:last-child {
+	border-bottom: none;
+}
+.about__eventsprojects-lnk:hover {
+	text-decoration: none;
+	color: #2c2f36;
 }
 
 .project-header2_dropdown {

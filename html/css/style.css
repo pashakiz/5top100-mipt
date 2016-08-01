@@ -967,16 +967,23 @@
 /*---------------------------------------------------------------------------------*/
 #about {}
 .about-text2col {}
-.about-text2col__block {
+.about-text2col__column {
 	float: left;
 	width: 50%;
-	padding-right: 30px;
 	box-sizing: border-box;
 	font-size: 14px;
 	line-height: 20px;
 	color: #5d5d5d;
 }
-.about-text2col__block-img {
+.about-text2col__column:last-child {
+	padding-right: 0;
+	padding-left: 15px;
+}
+.about-text2col__column:first-child {
+	padding-right: 15px;
+	padding-left: 0;
+}
+.about-text2col__column-img {
 	float: left;
 	margin: 0 20px 20px 0;
 }
@@ -1109,7 +1116,28 @@
 	font-size: 14px;
 	line-height: 20px;
 }
-.about__eventsprojects {}
+.about__eventsprojects {
+	padding: 40px 85px 0;
+}
+.about__direction-btn {
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.about__direction-btn:last-child {
+	margin-right: 0;
+}
+.about__direction-icon-text {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+.about__direction-btn .about__direction-icon {
+	font-size: 59px;
+}
 
 .project-header2_dropdown {
 	border-bottom: none;
@@ -1140,6 +1168,9 @@
 	bottom: -21px;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #d0d0d0;
+}
+.header-dropdown__arrow:hover {
+	color: #2886c4;
 }
 .header-dropdown.expand .header-dropdown__arrow {
 	bottom: -1px;

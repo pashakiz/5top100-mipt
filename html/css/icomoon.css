@@ -118,3 +118,30 @@
 .icon-brain:before {
   content: "\e91e";
 }
+.icon-search:before {
+  content: "\e91f";
+}
+.icon-badge:before {
+  content: "\e920";
+}
+.icon-lab1:before {
+  content: "\e921";
+}
+.icon-lab2:before {
+  content: "\e922";
+}
+.icon-man:before {
+  content: "\e923";
+}
+.icon-noteplus:before {
+  content: "\e924";
+}
+.icon-people:before {
+  content: "\e925";
+}
+.icon-phone:before {
+  content: "\e926";
+}
+.icon-question:before {
+  content: "\e927";
+}

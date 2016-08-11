@@ -1353,3 +1353,29 @@
 	background-repeat: repeat-x;
 	background-position: 0 50%;
 }
+
+#pagebody {}
+.direction {}
+.direction__iconbig {
+	float: right;
+	margin: 0 0 0 105px;
+}
+.direction__about {}
+.direction__iconbig .about__direction-img {
+	width: 235px;
+	height: 235px;
+}
+.direction__iconbig .about__direction-img .about__direction-icon {
+	font-size: 130px;
+}
+.direction__labs {}
+table.direction__tablelabs {}
+table.direction__tablelabs tr {}
+table.direction__tablelabs th {}
+table.direction__tablelabs td {}
+.direction__tablelabs-rank {
+	color: #828282;
+	font-size: 12px;
+	line-height: 20px;
+}
+

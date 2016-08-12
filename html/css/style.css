@@ -1607,4 +1607,5 @@ table.direction__support-table td .counter {
 .direction__bottom-links a {
 	display: inline-block;
 	margin-bottom: 18px;
+	font-size: 14px;
 }

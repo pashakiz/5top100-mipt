@@ -187,6 +187,9 @@
 	padding-top: 2px;
 	width: 705px;
 }
+.project-header2__text_960 {
+	width: 960px;
+}
 .project-targets {
 	margin-bottom: -18px;
 }
@@ -1609,4 +1612,19 @@ table.direction__support-table td .counter {
 	display: inline-block;
 	margin-bottom: 18px;
 	font-size: 14px;
+}
+.about-fullwidth_mt {
+	margin-top: 25px;
+}
+.p_center {
+	text-align: center;
+}
+.p_line {
+	margin-bottom: 26px;
+}
+.p_line:last-child {
+	margin-bottom: 0;
+}
+.header-dropdown__inner-text {
+	padding: 10px 0 0 0;
 }

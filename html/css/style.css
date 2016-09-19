@@ -1616,6 +1616,9 @@ table.direction__support-table td .counter {
 .about-fullwidth_mt {
 	margin-top: 25px;
 }
+.about-fullwidth_mbn {
+	margin-bottom: 0;
+}
 .p_center {
 	text-align: center;
 }
@@ -1628,3 +1631,42 @@ table.direction__support-table td .counter {
 .header-dropdown__inner-text {
 	padding: 10px 0 0 0;
 }
+.project-header2_1 {
+	text-align: center;
+}
+.project-header2_1 .project-header2__text {
+	width: 100%;
+	padding: 0;
+	color: #2886c4;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: 1px;
+}
+.about-text2col_img {}
+.about-text2col_img .about-text2col__column:first-child {
+	padding-right: 10px;
+}
+.about-text2col_img .about-text2col__column:last-child {
+	padding-left: 10px;
+}
+.campus-prj-text {
+	margin: 43px 0 0 0;
+}
+.campus-prj-text__left {
+	float: left;
+	width: 745px;
+}
+.campus-prj-text__right {
+	float: right;
+	width: 235px;
+	margin-left: 20px;
+}
+.campus-prj-text__square {
+	color: #fff;
+	background-color: #2886c4;
+	line-height: 70px;
+	font-size: 32px;
+	padding: 0 10px;
+	text-align: center;
+}
+

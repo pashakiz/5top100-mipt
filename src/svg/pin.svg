@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:x="ns_extend;" xmlns:i="ns_ai;" xmlns:graph="ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+	 style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2886C4;}
+</style>
+<metadata>
+	<sfw  xmlns="ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="512" width="384" x="64" y="0"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<g>
+		<path class="st0" d="M256,0C150,0,64,86,64,192s192,320,192,320s192-214,192-320S362,0,256,0z M256,320c-70.7,0-128-57.3-128-128
+			S185.3,64,256,64s128,57.3,128,128S326.7,320,256,320z M256,128c-35.3,0-64,28.7-64,64s28.7,64,64,64c35.3,0,64-28.7,64-64
+			S291.3,128,256,128z"/>
+	</g>
+</g>
+</svg>

@@ -1669,4 +1669,13 @@ table.direction__support-table td .counter {
 	padding: 0 10px;
 	text-align: center;
 }
-
+.project-header2__icon.icon-cup {
+	font-size: 28px;
+}
+.project-header2__icon.icon-build {
+	font-size: 34px;
+	margin-top: -2px;
+}
+.project-header2__icon.icon-lab3 {
+	font-size: 28px;
+}

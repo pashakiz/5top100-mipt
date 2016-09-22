@@ -157,3 +157,21 @@
 .icon-pin:before {
   content: "\e92b";
 }
+.icon-globe:before {
+  content: "\e92c";
+}
+.icon-edit:before {
+  content: "\e92d";
+}
+.icon-people2:before {
+  content: "\e92e";
+}
+.icon-time:before {
+  content: "\e92f";
+}
+.icon-calendar:before {
+  content: "\e930";
+}
+.icon-info:before {
+  content: "\e931";
+}

@@ -1679,3 +1679,121 @@ table.direction__support-table td .counter {
 .project-header2__icon.icon-lab3 {
 	font-size: 28px;
 }
+.intergration-blockscheme {
+	position: relative;
+	font-size: 1px;
+	padding: 32px 0 44px;
+}
+.blockscheme {
+	display: inline-block;
+	width: 320px;
+	height: 108px;
+	padding: 15px 23px;
+	color: #2886c4;
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	border: 2px solid #2886c4;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+.blockscheme span {
+	color: #ff0000;
+	font-size: 24px;
+	line-height: 18px;
+}
+.blockscheme_h1 {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0 auto 40px;
+	display: block;
+	position: relative;
+}
+.blockscheme_mh {
+	margin: 0 20px;
+}
+.blockscheme_tcell {
+	display: table-cell;
+}
+.blockscheme__row {
+	display: table;
+	border-spacing: 20px 0;
+	width: 1040px;
+	position: relative;
+	left: -20px;
+}
+.blockscheme__line {
+	position: absolute;
+	background-color: #2886c4;
+}
+.blockscheme__line_left {
+	width: 180px;
+	height: 2px;
+	top: 50%;
+	left: -182px;
+}
+.blockscheme__line_leftbottom {
+	width: 2px;
+	height: 94px;
+	top: 50%;
+	left: -182px;
+}
+.blockscheme__line_right {
+	width: 180px;
+	height: 2px;
+	top: 50%;
+	right: -182px;
+}
+.blockscheme__line_rightbottom {
+	width: 2px;
+	height: 94px;
+	top: 50%;
+	right: -182px;
+}
+.blockscheme__line_bottom {
+	left: 50%;
+	margin-left: -1px;
+	width: 2px;
+	height: 40px;
+	bottom: -42px;
+}
+.direction__icon-text {
+	padding: 0 0 18px 0;
+}
+.direction__icon {
+	float: left;
+	margin: 0 20px 0 0;
+}
+.direction__text {
+	width: 830px;
+	float: left;
+}
+.project-header2_mb18 {
+	margin-bottom: 38px;
+}
+.p_iblue {
+	font-style: italic;
+	color: #2886c4;
+}
+table.direction__tablelabs_col4 {
+	padding-top: 26px;
+}
+table.direction__tablelabs_col4 th {
+	text-align: center;
+}
+table.direction__tablelabs_col4 td:nth-child(1) {
+	width: 27px;
+	text-align: center;
+}
+table.direction__tablelabs_col4 td:nth-child(2) {
+	width: 217px;
+	text-align: center;
+}
+table.direction__tablelabs_col4 td:nth-child(3) {
+	width: 112px;
+	text-align: center;
+}
+table.direction__tablelabs_col4 td:nth-child(4) {
+	width: 460px;
+}
+

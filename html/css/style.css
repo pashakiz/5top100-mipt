@@ -32,6 +32,12 @@
 	border-width: 0 0 16px 16px;
 	border-color: transparent transparent #ffffff transparent;
 }
+.folded_7:before {
+	border-width: 7px 7px 0 0;
+}
+.folded_7:after {
+	border-width: 0 0 7px 7px;
+}
 .project__details {
 	padding-bottom: 6px;
 }
@@ -1796,4 +1802,129 @@ table.direction__tablelabs_col4 td:nth-child(3) {
 table.direction__tablelabs_col4 td:nth-child(4) {
 	width: 460px;
 }
-
+.project-header2__text_allwidth {
+	width: 100%;
+	text-transform: none;
+	font-size: 16px;
+}
+.header-dropdown__row {
+	font-size: 1px;
+	padding: 18px 0 27px;
+}
+.address {
+	display: inline-block;
+}
+.address_1 {
+	width: 405px;
+	margin-right: 20px;
+}
+.address_2 {
+	width: 575px;
+}
+.address_3 {
+	width: 490px;
+}
+.address__icon {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	background-color: #eb6b4d;
+	vertical-align: middle;
+	text-align: center;
+}
+.address__icon .icon-badge {
+	display: inline-block;
+	font-size: 36px;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	margin: -20px 0 0 -20px;
+}
+.address__icon .icon-edit {
+	display: inline-block;
+	font-size: 32px;
+	color: #fff;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 50%;
+	margin: -16px 0 0 -14px;
+}
+.address__info {
+	display: inline-block;
+	width: 320px;
+	color: #5d5d5d;
+	font-size: 14px;
+	line-height: 20px;
+	vertical-align: middle;
+	margin: 0 0 0 20px;
+}
+.address_3 .address__info {
+	width: 405px;
+}
+.address__info a.mailto {
+	color: inherit;
+	text-decoration: none;
+}
+.address__info a.mailto:hover {
+	text-decoration: underline;
+}
+.project-header3 {
+	color: #5d5d5d;
+	line-height: 1;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0 0 27px 0;
+}
+table.transparent2col {
+	width: 100%;
+	margin: 0 0 18px 0;
+}
+table.transparent2col td {
+	vertical-align: top;
+}
+table.transparent2col.transparent2col_icons td {
+	vertical-align: middle;
+	font-size: 1px;
+	height: 80px;
+}
+table.transparent2col td:nth-child(1) {
+	width: 340px;
+}
+table.transparent2col td:nth-child(2) {
+	width: 660px;
+}
+table.transparent2col td .icon {
+	display: inline-block;
+	color: #2986c5;
+	font-size: 36px;
+	width: 65px;
+	min-height: 35px;
+	margin-right: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+table.transparent2col td .icon.icon-people2 {
+	font-size: 52px;
+	margin-top: -14px;
+}
+table.transparent2col td .title {
+	display: inline-block;
+	color: #5d5d5d;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 20px;
+	vertical-align: middle;
+}
+table.transparent2col td .text {
+	color: #5d5d5d;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 20px;
+	vertical-align: middle;
+}
+table.transparent2col td .titlesimple {}

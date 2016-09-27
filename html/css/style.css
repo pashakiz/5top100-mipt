@@ -1230,6 +1230,9 @@
 .header-dropdown__inner {
 	display: none;
 }
+.header-dropdown__inner.expand {
+	display: block;
+}
 .header-dropdown__arrow {
 	padding: 1px 10px 4px;
 	font-size: 17px;

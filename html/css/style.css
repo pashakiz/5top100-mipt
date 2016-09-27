@@ -1230,9 +1230,6 @@
 .header-dropdown__inner {
 	display: none;
 }
-.header-dropdown.expand .header-dropdown__inner {
-	display: block;
-}
 .header-dropdown__arrow {
 	padding: 1px 10px 4px;
 	font-size: 17px;
@@ -1861,6 +1858,9 @@ table.direction__tablelabs_col4 td:nth-child(4) {
 	vertical-align: middle;
 	margin: 0 0 0 20px;
 }
+.address_2 .address__info {
+	width: 405px;
+}
 .address_3 .address__info {
 	width: 405px;
 }
@@ -1877,7 +1877,7 @@ table.direction__tablelabs_col4 td:nth-child(4) {
 	font-size: 20px;
 	font-weight: bold;
 	font-style: italic;
-	margin: 0 0 27px 0;
+	padding: 13px 0 27px;
 }
 table.transparent2col {
 	width: 100%;
@@ -1927,4 +1927,34 @@ table.transparent2col td .text {
 	line-height: 20px;
 	vertical-align: middle;
 }
-table.transparent2col td .titlesimple {}
+table.transparent2col td .titlesimple,
+.project-lists__item-list_titlesimple {
+	margin: 18px 0 15px;
+}
+table.transparent2col td .textsimple {
+    padding: 0 0 0 30px;
+}
+.fact {
+	width: 100%;
+}
+.fact__btn {
+	width: 100%;
+	color: #2c2f36;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	background-color: #ececec;
+	padding: 22px 45px 18px;
+	text-align: center;
+	cursor: pointer;
+}
+.fact__info {
+	display: none;
+	width: 100%;
+	padding: 8px 0 24px;
+	color: #2c2f36;
+	font-size: 14px;
+	line-height: 20px;
+}
+

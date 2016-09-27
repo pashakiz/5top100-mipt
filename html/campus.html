@@ -17,7 +17,7 @@
 	<div style="width: 1000px; margin: 0 auto 200px;"> <!-- wrapper for example (begin) -->
 
 		
-		<div id="about" class="about">
+		<div id="pagebody" class="pagebody direction">
 			<div class="project-header2">
 				<div class="project-header2__icon icon-notepad"></div>
 				<div class="project-header2__text">О Направлении</div>
@@ -45,7 +45,7 @@
 						</div>
 					</div> <!-- .about__text2col -->
 				</div> <!-- .header-dropdown__inner -->
-				<div class="header-dropdown__arrow icon-arrow-up"></div>
+				<div class="header-dropdown__arrow icon-arrow-down"></div>
 			</div> <!-- .header-dropdown -->
 			<div class="header-dropdown">
 				<div class="project-header2 project-header2_dropdown">
@@ -80,7 +80,7 @@
 					<p>Начало строительства – август 2011 г.</p>
 					<p>Окончание строительства – февраль 2015 г.</p>
 				</div> <!-- .header-dropdown__inner -->
-				<div class="header-dropdown__arrow icon-arrow-up"></div>
+				<div class="header-dropdown__arrow icon-arrow-down"></div>
 			</div> <!-- .header-dropdown -->
 			<div class="header-dropdown">
 				<div class="project-header2 project-header2_dropdown">
@@ -101,7 +101,7 @@
 						</div>
 					</div> <!-- .about__text2col -->
 				</div> <!-- .header-dropdown__inner -->
-				<div class="header-dropdown__arrow icon-arrow-up"></div>
+				<div class="header-dropdown__arrow icon-arrow-down"></div>
 			</div> <!-- .header-dropdown -->
 			<div class="header-dropdown">
 				<div class="project-header2 project-header2_dropdown">
@@ -119,7 +119,7 @@
 						</div>
 					</div> <!-- .about__text2col -->
 				</div> <!-- .header-dropdown__inner -->
-				<div class="header-dropdown__arrow icon-arrow-up"></div>
+				<div class="header-dropdown__arrow icon-arrow-down"></div>
 			</div> <!-- .header-dropdown -->
 			<div class="header-dropdown">
 				<div class="project-header2 project-header2_dropdown">
@@ -213,9 +213,9 @@
 						</script>
 					</div> <!-- #project-ymap -->
 				</div> <!-- .header-dropdown__inner -->
-				<div class="header-dropdown__arrow icon-arrow-up"></div>
+				<div class="header-dropdown__arrow icon-arrow-down"></div>
 			</div> <!-- .header-dropdown -->
-		</div> <!-- #about -->
+		</div> <!-- #pagebody -->
 
 
 	</div> <!-- wrapper for example (end) -->
@@ -227,22 +227,6 @@
 	<script src="js/html5shiv/respond.min.js"></script>
 	<![endif]-->
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script>
-		$(document).ready(function() {
-
-			$('.header-dropdown__arrow').on('click', function() {
-				if ( $(this).parent().hasClass('expand') ) {
-					$(this).parent().removeClass('expand');
-					$(this).removeClass('icon-arrow-up');
-					$(this).addClass('icon-arrow-down');
-				} else {
-					$(this).parent().addClass('expand');
-					$(this).removeClass('icon-arrow-down');
-					$(this).addClass('icon-arrow-up');
-				}
-			});
-
-		});
-	</script>
+	<script src="js/common.js"></script>
 </body>
 </html>

@@ -374,28 +374,6 @@
 	<script src="js/html5shiv/respond.min.js"></script>
 	<![endif]-->
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script>
-		$(document).ready(function() {
-
-			$('.header-dropdown__arrow').on('click', function() {
-				if ( $(this).parent().hasClass('expand') ) {
-					$(this).parent().removeClass('expand');
-					$(this).parent().find('.header-dropdown__inner').slideUp();
-					$(this).removeClass('icon-arrow-up');
-					$(this).addClass('icon-arrow-down');
-				} else {
-					$(this).parent().addClass('expand');
-					$(this).parent().find('.header-dropdown__inner').slideDown();
-					$(this).removeClass('icon-arrow-down');
-					$(this).addClass('icon-arrow-up');
-				}
-			});
-
-			$('.fact__btn').on('click', function() {
-				$(this).parent().find('.fact__info').slideToggle();
-			});
-
-		});
-	</script>
+	<script src="js/common.js"></script>
 </body>
 </html>

@@ -119,7 +119,7 @@
 					<div class="project-header2__icon icon-docs"></div>
 					<div class="project-header2__text">Экспертный совет</div>
 				</div>
-				<div class="header-dropdown__inner clearfix">
+				<div class="header-dropdown__inner expand clearfix">
 					<div class="direction__experts">
 						<p>Основной функцией Экспертного совета, состоящего из ведущих специалистов как в области фундаментальной, так и прикладной науки, является отбор научных проектов по созданию новых лабораторий и поддержке из числа уже существующих лабораторий, а также согласование политики сокращения финансирования лабораторий из средств Программы.</p>
 						<div class="direction__experts-title-out">
@@ -289,7 +289,7 @@
 					<div class="project-header2__icon icon-noteplus"></div>
 					<div class="project-header2__text">Программа поддержки исследовательских групп молодых научно-педадогических работников</div>
 				</div>
-				<div class="header-dropdown__inner clearfix">
+				<div class="header-dropdown__inner expand clearfix">
 					<div class="direction__support">
 						<p>Федеральное государственное автономное образовательное учреждение высшего профессионального образования «Московский физико-технический институт (государственный университет)» (МФТИ) уведомляет о завершении конкурсного отбора на финансирование создания (развития) найчных и прикладных научно-технических лабораторий под руководством молодых перспктивных ученых (в рамках реализации Программы 5-100)</p>
 						<div class="about__subtitle about__subtitle_push-down folded">Перечень одобренных заявок на поддержку научных и научно-прикладных коллективов под руководством молодых ученых:</div>
@@ -340,22 +340,6 @@
 	<script src="js/html5shiv/respond.min.js"></script>
 	<![endif]-->
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script>
-		$(document).ready(function() {
-
-			$('.header-dropdown__arrow').on('click', function() {
-				if ( $(this).parent().hasClass('expand') ) {
-					$(this).parent().removeClass('expand');
-					$(this).removeClass('icon-arrow-up');
-					$(this).addClass('icon-arrow-down');
-				} else {
-					$(this).parent().addClass('expand');
-					$(this).removeClass('icon-arrow-down');
-					$(this).addClass('icon-arrow-up');
-				}
-			});
-
-		});
-	</script>
+	<script src="js/common.js"></script>
 </body>
 </html>

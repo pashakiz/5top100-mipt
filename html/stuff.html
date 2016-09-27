@@ -17,7 +17,7 @@
 	<div style="width: 1000px; margin: 0 auto 200px;"> <!-- wrapper for example (begin) -->
 
 		
-		<div id="about" class="about">
+		<div id="pagebody" class="pagebody direction">
 			<div class="project-header2">
 				<div class="project-header2__icon icon-notepad"></div>
 				<div class="project-header2__text">О Направлении</div>
@@ -58,7 +58,7 @@
 						<a class="link2file link2file_word" href="http://mipt.ru/upload/medialibrary/f75/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%202.docx">Форма 2</a>
 					</div>
 				</div> <!-- .header-dropdown__inner -->
-				<div class="header-dropdown__arrow icon-arrow-up"></div>
+				<div class="header-dropdown__arrow icon-arrow-down"></div>
 			</div> <!-- .header-dropdown -->
 			<div class="header-dropdown">
 				<div class="project-header2 project-header2_dropdown">
@@ -77,7 +77,7 @@
 						<p class="p_line p_center"><a href="https://mipt.ru/science/5top100/staff/postdoc/sci_popular.php">Результаты в научно-популярном изложении</a></p>
 					</div>
 				</div> <!-- .header-dropdown__inner -->
-				<div class="header-dropdown__arrow icon-arrow-up"></div>
+				<div class="header-dropdown__arrow icon-arrow-down"></div>
 			</div> <!-- .header-dropdown -->
 			<div class="header-dropdown">
 				<div class="project-header2 project-header2_dropdown">
@@ -93,9 +93,9 @@
 						<p class="p_line">По вопросам, связанным с мероприятиями Программы, обращайтесь по адресу <a href="mailto:publications@phystech.edu">publications@phystech.edu</a></p>
 					</div>
 				</div> <!-- .header-dropdown__inner -->
-				<div class="header-dropdown__arrow icon-arrow-up"></div>
+				<div class="header-dropdown__arrow icon-arrow-down"></div>
 			</div> <!-- .header-dropdown -->
-		</div> <!-- #about -->
+		</div> <!-- #pagebody -->
 
 
 	</div> <!-- wrapper for example (end) -->
@@ -107,22 +107,6 @@
 	<script src="js/html5shiv/respond.min.js"></script>
 	<![endif]-->
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script>
-		$(document).ready(function() {
-
-			$('.header-dropdown__arrow').on('click', function() {
-				if ( $(this).parent().hasClass('expand') ) {
-					$(this).parent().removeClass('expand');
-					$(this).removeClass('icon-arrow-up');
-					$(this).addClass('icon-arrow-down');
-				} else {
-					$(this).parent().addClass('expand');
-					$(this).removeClass('icon-arrow-down');
-					$(this).addClass('icon-arrow-up');
-				}
-			});
-
-		});
-	</script>
+	<script src="js/common.js"></script>
 </body>
 </html>

@@ -203,7 +203,7 @@
 					<div class="project-header2__icon icon-docs"></div>
 					<div class="project-header2__text">Документы проекта</div>
 				</div>
-				<div class="header-dropdown__inner header-dropdown__inner_docs clearfix">
+				<div class="header-dropdown__inner expand header-dropdown__inner_docs clearfix">
 					<div class="about-text2col__column">
 						<a class="link2file link2file_exel" href="#">Программа повышения конкурентоспособности МФТИ</a>
 						<a class="link2file link2file_word" href="#">План мероприятий</a>
@@ -220,7 +220,7 @@
 					<div class="project-header2__icon icon-arrow-right"></div>
 					<div class="project-header2__text">Как инициировать проект </div>
 				</div>
-				<div class="header-dropdown__inner clearfix">
+				<div class="header-dropdown__inner expand clearfix">
 					<div class="about__initiate clearfix">
 						<div class="about__initiate-step">
 							<div class="about__initiate-step-title">
@@ -279,41 +279,6 @@
 	<script src="js/html5shiv/respond.min.js"></script>
 	<![endif]-->
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script>
-		$(document).ready(function() {
-
-			$('.header-dropdown__arrow').on('click', function() {
-				if ( $(this).parent().hasClass('expand') ) {
-					$(this).parent().removeClass('expand');
-					$(this).removeClass('icon-arrow-up');
-					$(this).addClass('icon-arrow-down');
-				} else {
-					$(this).parent().addClass('expand');
-					$(this).removeClass('icon-arrow-down');
-					$(this).addClass('icon-arrow-up');
-				}
-			});
-
-			$('.about__direction-btn').on('click', function() {
-				$('.about__direction-eventsprojects').hide();
-				if ( $(this).hasClass('about__direction-btn_1') ) {
-					$('.about__direction-eventsprojects_1').show();
-				}
-				if ( $(this).hasClass('about__direction-btn_2') ) {
-					$('.about__direction-eventsprojects_2').show();
-				}
-				if ( $(this).hasClass('about__direction-btn_3') ) {
-					$('.about__direction-eventsprojects_3').show();
-				}
-				if ( $(this).hasClass('about__direction-btn_4') ) {
-					$('.about__direction-eventsprojects_4').show();
-				}
-				if ( $(this).hasClass('about__direction-btn_5') ) {
-					$('.about__direction-eventsprojects_5').show();
-				}
-			});
-
-		});
-	</script>
+	<script src="js/common.js"></script>
 </body>
 </html>

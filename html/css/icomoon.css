@@ -175,3 +175,15 @@
 .icon-info:before {
   content: "\e931";
 }
+.icon-manage:before {
+  content: "\e932";
+}
+.icon-finance:before {
+  content: "\e933";
+}
+.icon-arrowleft:before {
+  content: "\e934";
+}
+.icon-arrowright:before {
+  content: "\e935";
+}

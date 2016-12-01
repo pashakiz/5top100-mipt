@@ -10,6 +10,7 @@
 	<title>mipt5top100</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
 	<link rel="stylesheet" href="css/icomoon.css" />
 	<link rel="stylesheet" href="css/style.css" />
 </head>
@@ -57,21 +58,27 @@
 			</div>
 			<div class="about__subtitle">План мероприятий по реализации программы повышения конкурентоспособности МФТИ («Дорожная карта») 2015-2016 гг. содержит четыре стратегические инициативы:</div>
 			<div class="about__roadmap-box">
-				<div class="about__roadmap-item">
+				<div class="about__roadmap-item" style="margin-right: 20px;">
 					<div class="about__roadmap-item-title folded folded_top-right">СИ № 1</div>
-					<div class="about__roadmap-item-text">Развитие системы образования (Инициатива “Образование”)</div>
+					<div class="about__roadmap-item-text">Повышение количества лабораторий (Инициатива «50 лабораторий»)</div>
 				</div>
-				<div class="about__roadmap-item">
+				<div class="about__roadmap-item" style="margin-right: 20px;">
 					<div class="about__roadmap-item-title folded folded_top-right">СИ № 2</div>
-					<div class="about__roadmap-item-text">Развитие исследовательского потенциала (Инициатива “Наука”)</div>
+					<div class="about__roadmap-item-text">Инициатива «Развитие человеческого капитала»</div>
 				</div>
 				<div class="about__roadmap-item">
 					<div class="about__roadmap-item-title folded folded_top-right">СИ № 3</div>
-					<div class="about__roadmap-item-text">Повышение узнаваемости МФТИ (Инициатива “Узнаваемость”)</div>
+					<div class="about__roadmap-item-text" style="padding: 10px 30px 30px;">
+						<span style="position:relative; top:8px;">Инициатива «Интеграция МФТИ в международное академическое сообщество»</span>
+					</div>
+				</div>
+				<div class="about__roadmap-item" style="margin-right: 20px;">
+					<div class="about__roadmap-item-title folded folded_top-right">СИ № 4</div>
+					<div class="about__roadmap-item-text">Инициатива «Развитие системы образования»</div>
 				</div>
 				<div class="about__roadmap-item">
-					<div class="about__roadmap-item-title folded folded_top-right">СИ № 4</div>
-					<div class="about__roadmap-item-text">Благоустройство территории МФТИ (Инициатива “Кампус”)</div>
+					<div class="about__roadmap-item-title folded folded_top-right">СИ № 5</div>
+					<div class="about__roadmap-item-text">Инициатива «Диверсификация бюджета МФТИ»</div>
 				</div>
 			</div> <!-- .about__roadmap-box -->
 			<div class="about__subtitle">Каждая стратегическая инициатива состоит из мероприятий, которые логически сгруппированы в пять направлений:</div>
@@ -131,10 +138,32 @@
 						</div>
 					</div>
 				</div>
+				<div class="about__direction-out">
+					<div class="about__direction">
+						<div class="about__direction-img about__direction-img_manage folded">
+							<div class="about__direction-icon icon-manage"></div>
+						</div>
+						<div class="about__direction-descr">
+							<div class="about__direction-title">Управление</div>
+							<div class="about__direction-text">Реструктуризация подразделений МФТИ и выстраивание системного формализованного подхода к управлению проектами.</div>
+						</div>
+					</div>
+				</div>
+				<div class="about__direction-out">
+					<div class="about__direction">
+						<div class="about__direction-img about__direction-img_finance folded">
+							<div class="about__direction-icon icon-finance"></div>
+						</div>
+						<div class="about__direction-descr">
+							<div class="about__direction-title">Финансы</div>
+							<div class="about__direction-text">Повышение эффективности экономической деятельности МФТИ, развитие бухгалтерского учета и отчетности и поиск новых источников финансирования.</div>
+						</div>
+					</div>
+				</div>
 			</div> <!-- .about__directions -->
 			<div class="about__subtitle">В рамках этих направлений в 2015 году реализуется более 25 мероприятий и более 100 проектов:</div>
 			<div class="about__eventsprojects">
-				<div class="about__direction-btns clearfix">
+				<div class="about__direction-btns clearfix owl-carousel">
 					<div class="about__direction-btn about__direction-btn_1">
 						<div class="about__direction-img about__direction-img_education folded">
 							<div class="about__direction-icon-text">Образование</div>
@@ -163,6 +192,18 @@
 						<div class="about__direction-img about__direction-img_brain folded">
 							<div class="about__direction-icon-text">Кадры</div>
 							<div class="about__direction-icon icon-brain"></div>
+						</div>
+					</div>
+					<div class="about__direction-btn about__direction-btn_6">
+						<div class="about__direction-img about__direction-img_manage folded">
+							<div class="about__direction-icon-text">Управление</div>
+							<div class="about__direction-icon icon-manage"></div>
+						</div>
+					</div>
+					<div class="about__direction-btn about__direction-btn_7">
+						<div class="about__direction-img about__direction-img_finance folded">
+							<div class="about__direction-icon-text">Финансы</div>
+							<div class="about__direction-icon icon-finance"></div>
 						</div>
 					</div>
 				</div> <!-- .about__direction-btns -->
@@ -196,6 +237,16 @@
 					<a class="about__eventsprojects-lnk" href="http://5top100.mipt.ru/projects?filter%5Bview_type%5D=list&q=2.2.2.&page=1&sort_by=name&sort_order=asc&filter%5Bkind%5D=current&filter%5Bproject_category_id%5D%5B18%5D=0&filter%5Bproject_category_id%5D%5B20%5D=0&filter%5Bproject_category_id%5D%5B21%5D=0&filter%5Bproject_category_id%5D%5B22%5D=0&filter%5Bproject_category_id%5D%5B17%5D=0&filter%5Bproject_category_id%5D%5B23%5D=0&filter%5Bproject_category_id%5D%5B19%5D=0&filter%5Bactuality_year_id%5D%5B1%5D=0&filter%5Bactuality_year_id%5D%5B2%5D=0&filter%5Bactuality_year_id%5D%5B3%5D=0">Развитие кадрового управленческого потенциала МФТИ</a>
 					<a class="about__eventsprojects-lnk" href="http://5top100.mipt.ru/projects?filter%5Bview_type%5D=list&q=1.2.1.&page=1&sort_by=name&sort_order=asc&filter%5Bkind%5D=current&filter%5Bproject_category_id%5D%5B18%5D=0&filter%5Bproject_category_id%5D%5B20%5D=0&filter%5Bproject_category_id%5D%5B21%5D=0&filter%5Bproject_category_id%5D%5B22%5D=0&filter%5Bproject_category_id%5D%5B17%5D=0&filter%5Bproject_category_id%5D%5B23%5D=0&filter%5Bproject_category_id%5D%5B19%5D=0&filter%5Bactuality_year_id%5D%5B1%5D=0&filter%5Bactuality_year_id%5D%5B2%5D=0&filter%5Bactuality_year_id%5D%5B3%5D=0">Совершенствование деятельности аспирантуры и докторантуры</a>
 					<a class="about__eventsprojects-lnk" href="http://5top100.mipt.ru/projects?filter%5Bview_type%5D=list&q=3.3.1.&page=1&sort_by=name&sort_order=asc&filter%5Bkind%5D=current&filter%5Bproject_category_id%5D%5B18%5D=0&filter%5Bproject_category_id%5D%5B20%5D=0&filter%5Bproject_category_id%5D%5B21%5D=0&filter%5Bproject_category_id%5D%5B22%5D=0&filter%5Bproject_category_id%5D%5B17%5D=0&filter%5Bproject_category_id%5D%5B23%5D=0&filter%5Bproject_category_id%5D%5B19%5D=0&filter%5Bactuality_year_id%5D%5B1%5D=0&filter%5Bactuality_year_id%5D%5B2%5D=0&filter%5Bactuality_year_id%5D%5B3%5D=0">Работа по привлечению и развитию одаренных школьников, увеличение доли выпускников других вузов, среди магистрантов МФТИ</a>
+				</div> <!-- .about__direction-eventsprojects -->
+				<div class="about__direction-eventsprojects about__direction-eventsprojects_6">
+					<a class="about__eventsprojects-lnk" href="#">Поддержка молодых НПР и их кураторов, студентов и аспирантов, ведущих преподавательскую деятельность</a>
+					<a class="about__eventsprojects-lnk" href="#">Развитие кадрового управленческого потенциала МФТИ</a>
+					<a class="about__eventsprojects-lnk" href="#">Совершенствование деятельности аспирантуры и докторантуры</a>
+				</div> <!-- .about__direction-eventsprojects -->
+				<div class="about__direction-eventsprojects about__direction-eventsprojects_7">
+					<a class="about__eventsprojects-lnk" href="#">Поддержка молодых НПР и их кураторов, студентов и аспирантов, ведущих преподавательскую деятельность</a>
+					<a class="about__eventsprojects-lnk" href="#">Развитие кадрового управленческого потенциала МФТИ</a>
+					<a class="about__eventsprojects-lnk" href="#">Совершенствование деятельности аспирантуры и докторантуры</a>
 				</div> <!-- .about__direction-eventsprojects -->
 			</div> <!-- .about__eventsprojects -->
 			<div class="header-dropdown expand">
@@ -279,6 +330,15 @@
 	<script src="js/html5shiv/respond.min.js"></script>
 	<![endif]-->
 	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/common.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.owl-carousel').owlCarousel({
+				items: 5,
+				margin: 20
+			});
+		});
+	</script>
 </body>
 </html>

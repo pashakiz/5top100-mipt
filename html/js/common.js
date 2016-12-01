@@ -31,12 +31,6 @@ $(document).ready(function() {
 		if ( $(this).hasClass('about__direction-btn_5') ) {
 			$('.about__direction-eventsprojects_5').show();
 		}
-		if ( $(this).hasClass('about__direction-btn_6') ) {
-			$('.about__direction-eventsprojects_6').show();
-		}
-		if ( $(this).hasClass('about__direction-btn_7') ) {
-			$('.about__direction-eventsprojects_7').show();
-		}
 	});
 
 	$('.fact__btn').on('click', function() {

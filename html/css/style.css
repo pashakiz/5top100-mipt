@@ -1133,17 +1133,12 @@
 	padding: 40px 85px 0;
 }
 .about__direction-btns {
-	// margin-bottom: 30px;
-}
-.owl-stage {
-	border-bottom: 1px solid #d7d7d7;
+	margin-bottom: 30px;
 }
 .about__direction-btn {
 	float: left;
 	margin-right: 20px;
 	cursor: pointer;
-	height: 180px;
-	position: relative;
 }
 .about__direction-btn:last-child {
 	margin-right: 0;
@@ -1161,42 +1156,11 @@
 }
 .about__direction-eventsprojects {
 	background-color: #f3f3f3;
-	border-left: 1px solid #d7d7d7;
-	border-right: 1px solid #d7d7d7;
-	border-bottom: 1px solid #d7d7d7;
+	border: 1px solid #d7d7d7;
 	padding: 10px 18px;
 	position: relative;
 	display: none;
 }
-
-/*----------------TEST---------------------*/
-.about__direction-btn:after,
-.about__direction-btn:before {
-	bottom: 100%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	bottom: -1px;
-	left: 50%;
-}
-.about__direction-btn:after {
-	border-color: rgba(243, 243, 243, 0);
-	border-bottom-color: #f3f3f3;
-	border-width: 20px;
-	margin-left: -20px;
-}
-.about__direction-btn:before {
-	border-color: rgba(215, 215, 215, 0);
-	border-bottom-color: #d7d7d7;
-	border-width: 21px;
-	margin-left: -21px;
-}
-/*----------------TEST---------------------*/
-
-
 .about__direction-eventsprojects:after,
 .about__direction-eventsprojects:before {
 	bottom: 100%;
